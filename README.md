@@ -36,11 +36,11 @@ pip install numpy h5py soundfile
 ### WAY TO USE
 
 1. Place your `.sofa` file in the project directory (e.g., `D1_48K_24bit_0.3s_FIR_SOFA.sofa`).
-2. Update the `sofa_path` variable in `main.py` if your filename differs.
+2. Update the `sofa_path` variable in `SOFA_converter.py`.
 3. Run the script:
 
 ```bash
-python main.py
+python SOFA_converter.py
 
 ```
 
